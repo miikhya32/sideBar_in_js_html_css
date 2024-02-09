@@ -1,0 +1,79 @@
+*{
+    font-family: sans-serif;
+    color: #7e7c7c;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #ced4d4;
+    display: flex;
+}
+.sideBar{
+    background: white;
+    width: 250px;
+    min-height: 100vh;
+    padding: 10px;
+    padding-top: 60px;
+    position: relative;
+    display: none;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    background: #2fa6ee;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+
+.links .link{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    margin: 10px auto;
+    border-radius: 0px 100px 100px 0px;
+
+}
+.links .link:hover{
+    background-color: rgb(73, 73, 230);
+    color: aliceblue;
+    transition: background-color 1s;
+}
+.links .link:hover .fa{
+    color: white;
+}
+p{
+    font-weight: bold;
+}
+.link .link:hover .fa{
+    color: white;
+}
+.links .link.active{
+    background-color: rgb(73, 73, 230);
+    color: white;
+    border-radius: 100px;
+    text-align: center;
+}
+.links .link.active .fa{
+    color: white;
+}
+.main{
+
+    width: 100%;
+}
+/* this content we will design*/
+.main h3{
+    background-color: white;
+    padding: 8px;
+}
+.icon{
+    padding: 10px;
+}
+
